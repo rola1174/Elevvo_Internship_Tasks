@@ -1,37 +1,37 @@
 # Forest Cover Type Classification
 
+%%writefile README.md
+# Student Performance Prediction
+
 ## Project Overview
-This project predicts **forest cover types** using machine learning classification models based on cartographic environmental features.
+This project predicts **student exam scores** using regression models based on study and sleep habits.
 
 ## Dataset
-The dataset contains geographic and environmental variables such as:
-- Elevation
-- Aspect
-- Slope
-- Distance to hydrology
-- Distance to roadways
-- Hillshade measurements
-- Wilderness area indicators
-- Soil type indicators
+The dataset contains student behavior and performance features such as:
+- Hours_Studied: Number of hours a student studies daily
+- Sleep_Hours: Number of hours a student sleeps daily
 
-**Target:** Cover_Type (forest class)
+**Target:** Exam_Score (student's exam score)
 
 ## Workflow
-1. Data preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Model training
-4. Model evaluation using accuracy, confusion matrix, and classification report
-5. Model comparison
+1. Load the dataset
+2. Exploratory Data Analysis (EDA) and visualization
+3. Feature selection
+4. Model training using Linear Regression and Polynomial Regression
+5. Model evaluation using R² Score and RMSE
+6. Comparison of model performance
 
 ## Models Used
-- Logistic Regression
-- Random Forest
-- XGBoost
+- Linear Regression
+- Polynomial Regression (degree 2)
 
 ## Evaluation Metrics
-- Accuracy
-- Confusion Matrix
-- Precision / Recall / F1-score
+- R² Score
+- Root Mean Squared Error (RMSE)
+
+## Visualizations
+- Scatter plot of Hours Studied vs Exam Score
+- Bar plots comparing R² Score and RMSE of different models
 
 ## Author
 Rola Mohammed
