@@ -1,4 +1,3 @@
-# Forest Cover Type Classification
 
 %%writefile README.md
 # Student Performance Prediction
